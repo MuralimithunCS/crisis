@@ -1,0 +1,62 @@
+{
+  "model_name": "CrisisIQ Random Forest Flash-Flood Prediction Engine",
+  "target_sih_problem": "SIH26192 - Flash Flood Prediction System for Hilly Regions using Multi-Source Data",
+  "algorithm": "RandomForestClassifier(n_estimators=100, max_depth=12, random_state=42)",
+  "validation_method": "Temporal Train/Test Split (80% Chronological Train, 20% Out-of-Time Test)",
+  "metrics": {
+    "precision": 0.654,
+    "recall": 0.692,
+    "f1_score": 0.672,
+    "roc_auc": 0.861,
+    "accuracy": 0.814
+  },
+  "feature_names": [
+    "rainfall_1h",
+    "rainfall_3h",
+    "rainfall_6h",
+    "rainfall_24h",
+    "antecedent_rain_3d",
+    "antecedent_rain_7d",
+    "soil_moisture",
+    "elevation",
+    "slope",
+    "aspect",
+    "historical_flood_frequency"
+  ],
+  "feature_importances": {
+    "rainfall_3h": 0.224,
+    "soil_moisture": 0.198,
+    "rainfall_1h": 0.165,
+    "slope": 0.128,
+    "antecedent_rain_7d": 0.096,
+    "rainfall_24h": 0.068,
+    "rainfall_6h": 0.045,
+    "historical_flood_frequency": 0.035,
+    "antecedent_rain_3d": 0.021,
+    "elevation": 0.012,
+    "aspect": 0.008
+  },
+  "risk_tiers": {
+    "SAFE": {
+      "threshold": "< 0.30",
+      "color": "#22c55e",
+      "description": "Normal catchment conditions. Standard continuous monitoring."
+    },
+    "WATCH": {
+      "threshold": "0.30 - 0.59",
+      "color": "#eab308",
+      "description": "Elevated soil wetness & rising streams. Pre-alert downstream units & tourists."
+    },
+    "EVACUATE SOON": {
+      "threshold": "0.60 - 0.79",
+      "color": "#f97316",
+      "description": "High flash flood potential. Upstream runoff accelerating. Initiate evacuation preparedness."
+    },
+    "IMMEDIATE": {
+      "threshold": ">= 0.80",
+      "color": "#ef4444",
+      "description": "Critical flash flood surge imminent. Sound emergency sirens & immediate high-ground evacuation."
+    }
+  },
+  "data_disclosure": "MANDATORY DISCLOSURE: Model trained and validated on a physically-informed synthetic mountain catchment dataset (5,000 samples). Reported metrics (Precision: 0.65, Recall: 0.69, F1: 0.67, ROC-AUC: 0.86) reflect validation on this synthetic benchmark. They are not claimed as real-world field telemetry. Production operationalization requires calibrated IMD Doppler radar and CWC automatic water level telemetry assimilation."
+}

@@ -1,0 +1,40 @@
+services:
+  # Backend Service
+  - type: web
+    name: crisisiq-backend
+    env: docker
+    repo: https://github.com/hamsabm/Crisis-AI
+    rootDir: backend
+    plan: free
+    dockerFilePath: Dockerfile
+    healthCheckPath: /health
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 10000
+      - key: MONGODB_URI
+        sync: false
+      - key: REDIS_URL
+        sync: false
+      - key: JWT_SECRET
+        sync: false
+      - key: AI_ENGINE_URL
+        value: https://crisisiq-ai.onrender.com
+
+  # AI Engine Service
+  - type: web
+    name: crisisiq-ai
+    env: docker
+    repo: https://github.com/hamsabm/Crisis-AI
+    rootDir: ai-engine
+    plan: free
+    dockerFilePath: Dockerfile
+    healthCheckPath: /health
+    envVars:
+      - key: PORT
+        value: 10000
+      - key: REDIS_HOST
+        sync: false
+      - key: REDIS_PASSWORD
+        sync: false

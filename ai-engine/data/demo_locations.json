@@ -1,0 +1,752 @@
+[
+  {
+    "id": "kedarnath",
+    "name": "Kedarnath Valley",
+    "state": "Uttarakhand",
+    "region": "Mandakini Basin / Garhwal Himalayas",
+    "coordinates": [
+      79.0669,
+      30.7346
+    ],
+    "elevation_m": 3583,
+    "slope_deg": 38.5,
+    "aspect_deg": 195,
+    "catchment_area_sqkm": 68.4,
+    "soil_type": "Moraine & Glacial Till (High Permeability, Low Cohesion)",
+    "historical_flood_frequency": 8.5,
+    "baseline": {
+      "rainfall_1h": 12.5,
+      "rainfall_3h": 34.0,
+      "rainfall_6h": 58.0,
+      "rainfall_24h": 115.0,
+      "antecedent_rain_3d": 145.0,
+      "antecedent_rain_7d": 210.0,
+      "soil_moisture": 0.78
+    },
+    "safe_zones": [
+      {
+        "name": "Kedarnath Helipad High Ridge",
+        "coordinates": [
+          79.0695,
+          30.738
+        ],
+        "elevation_m": 3620,
+        "type": "Elevated Reinforced Plateau"
+      },
+      {
+        "name": "Bhairavnath Temple Ridge Refuge",
+        "coordinates": [
+          79.072,
+          30.732
+        ],
+        "elevation_m": 3690,
+        "type": "High Ground Rock Outcrop"
+      }
+    ],
+    "catchment_nodes": [
+      {
+        "id": "kdr-upper",
+        "name": "Chorabari Glacial Catchment",
+        "coordinates": [
+          79.062,
+          30.751
+        ],
+        "elevation_m": 3950,
+        "slope_deg": 44.0,
+        "role": "Upstream Catchment Inflow"
+      },
+      {
+        "id": "kdr-temple",
+        "name": "Temple Settlement Core",
+        "coordinates": [
+          79.0669,
+          30.7346
+        ],
+        "elevation_m": 3583,
+        "slope_deg": 28.0,
+        "role": "Settlement Vulnerability Node"
+      },
+      {
+        "id": "kdr-lower",
+        "name": "Rambara Gorge Confluence",
+        "coordinates": [
+          79.06,
+          30.695
+        ],
+        "elevation_m": 2740,
+        "slope_deg": 36.0,
+        "role": "Downstream Drainage Funnel"
+      }
+    ],
+    "country": "India",
+    "country_code": "IN",
+    "data_source_label": "Data Provenance: IMD Reanalysis & CWC Basin Hydrography (Model Baseline)"
+  },
+  {
+    "id": "chamoli",
+    "name": "Chamoli / Joshimath Valley",
+    "state": "Uttarakhand",
+    "region": "Rishiganga - Dhauliganga Basin",
+    "coordinates": [
+      79.563,
+      30.556
+    ],
+    "elevation_m": 1890,
+    "slope_deg": 32.0,
+    "aspect_deg": 220,
+    "catchment_area_sqkm": 142.0,
+    "soil_type": "Colluvial Debris over Gneiss",
+    "historical_flood_frequency": 7.8,
+    "baseline": {
+      "rainfall_1h": 8.0,
+      "rainfall_3h": 22.0,
+      "rainfall_6h": 41.0,
+      "rainfall_24h": 78.0,
+      "antecedent_rain_3d": 95.0,
+      "antecedent_rain_7d": 140.0,
+      "soil_moisture": 0.64
+    },
+    "safe_zones": [
+      {
+        "name": "Joshimath Cantonment High Terrace",
+        "coordinates": [
+          79.568,
+          30.562
+        ],
+        "elevation_m": 2040,
+        "type": "Upper Bedrock Terrace"
+      },
+      {
+        "name": "Auli Upper Evacuation Station",
+        "coordinates": [
+          79.575,
+          30.531
+        ],
+        "elevation_m": 2800,
+        "type": "Alpine Evacuation Plateau"
+      }
+    ],
+    "catchment_nodes": [
+      {
+        "id": "chm-upstream",
+        "name": "Ronti Glacier Valley Head",
+        "coordinates": [
+          79.71,
+          30.48
+        ],
+        "elevation_m": 3800,
+        "slope_deg": 41.0,
+        "role": "Upstream Steep Chute"
+      },
+      {
+        "id": "chm-mid",
+        "name": "Raini Village Bridge Crossing",
+        "coordinates": [
+          79.691,
+          30.486
+        ],
+        "elevation_m": 2020,
+        "slope_deg": 31.0,
+        "role": "Narrow Gorge Choke Point"
+      },
+      {
+        "id": "chm-tapovan",
+        "name": "Tapovan Barrage Sector",
+        "coordinates": [
+          79.623,
+          30.495
+        ],
+        "elevation_m": 1820,
+        "slope_deg": 19.0,
+        "role": "Downstream Settlement & Infrastructure"
+      }
+    ],
+    "country": "India",
+    "country_code": "IN",
+    "data_source_label": "Data Provenance: IMD Reanalysis & CWC Basin Hydrography (Model Baseline)"
+  },
+  {
+    "id": "mangan",
+    "name": "Mangan / Chungthang Gorge",
+    "state": "Sikkim",
+    "region": "Teesta River Upper Basin",
+    "coordinates": [
+      88.5284,
+      27.5042
+    ],
+    "elevation_m": 1310,
+    "slope_deg": 34.8,
+    "aspect_deg": 160,
+    "catchment_area_sqkm": 210.5,
+    "soil_type": "Coarse Sandy Loam on Phyllite/Schist",
+    "historical_flood_frequency": 8.0,
+    "baseline": {
+      "rainfall_1h": 18.0,
+      "rainfall_3h": 46.0,
+      "rainfall_6h": 82.0,
+      "rainfall_24h": 160.0,
+      "antecedent_rain_3d": 210.0,
+      "antecedent_rain_7d": 320.0,
+      "soil_moisture": 0.85
+    },
+    "safe_zones": [
+      {
+        "name": "Mangan District Administrative Ridge",
+        "coordinates": [
+          88.534,
+          27.511
+        ],
+        "elevation_m": 1490,
+        "type": "Stabilized Crest"
+      },
+      {
+        "name": "Singhik Viewpoint Safe Haven",
+        "coordinates": [
+          88.512,
+          27.525
+        ],
+        "elevation_m": 1560,
+        "type": "Elevated Solid Ridge"
+      }
+    ],
+    "catchment_nodes": [
+      {
+        "id": "mgn-lhonak",
+        "name": "South Lhonak Glacial Lake Sector",
+        "coordinates": [
+          88.21,
+          27.91
+        ],
+        "elevation_m": 5200,
+        "slope_deg": 38.0,
+        "role": "Glacial Lake Outflow Head"
+      },
+      {
+        "id": "mgn-chungthang",
+        "name": "Chungthang Confluence Hub",
+        "coordinates": [
+          88.647,
+          27.603
+        ],
+        "elevation_m": 1700,
+        "slope_deg": 30.0,
+        "role": "Lachen-Lachung River Meeting"
+      },
+      {
+        "id": "mgn-basin",
+        "name": "Mangan Valley Corridor",
+        "coordinates": [
+          88.5284,
+          27.5042
+        ],
+        "elevation_m": 1310,
+        "slope_deg": 25.0,
+        "role": "Habitation Inundation Zone"
+      }
+    ],
+    "country": "India",
+    "country_code": "IN",
+    "data_source_label": "Data Provenance: IMD Reanalysis & CWC Basin Hydrography (Model Baseline)"
+  },
+  {
+    "id": "kullu",
+    "name": "Kullu - Manali Valley",
+    "state": "Himachal Pradesh",
+    "region": "Upper Beas Catchment",
+    "coordinates": [
+      77.1095,
+      31.9579
+    ],
+    "elevation_m": 1279,
+    "slope_deg": 28.2,
+    "aspect_deg": 180,
+    "catchment_area_sqkm": 345.0,
+    "soil_type": "Alluvial Gravel & Clay Loam",
+    "historical_flood_frequency": 6.9,
+    "baseline": {
+      "rainfall_1h": 9.5,
+      "rainfall_3h": 26.0,
+      "rainfall_6h": 49.0,
+      "rainfall_24h": 92.0,
+      "antecedent_rain_3d": 110.0,
+      "antecedent_rain_7d": 165.0,
+      "soil_moisture": 0.69
+    },
+    "safe_zones": [
+      {
+        "name": "Sultanpur High Ground Assembly",
+        "coordinates": [
+          77.115,
+          31.964
+        ],
+        "elevation_m": 1360,
+        "type": "Elevated Municipal Ground"
+      },
+      {
+        "name": "Naggar Upper Heritage Terrace",
+        "coordinates": [
+          77.168,
+          32.115
+        ],
+        "elevation_m": 1780,
+        "type": "Upper Valley Terrace"
+      }
+    ],
+    "catchment_nodes": [
+      {
+        "id": "klu-solang",
+        "name": "Solang Valley Upper Stream",
+        "coordinates": [
+          77.15,
+          32.316
+        ],
+        "elevation_m": 2480,
+        "slope_deg": 35.0,
+        "role": "Glacial & Storm Runoff Accumulation"
+      },
+      {
+        "id": "klu-manali",
+        "name": "Manali Old Town Fluvial Channel",
+        "coordinates": [
+          77.1887,
+          32.2432
+        ],
+        "elevation_m": 2050,
+        "slope_deg": 22.0,
+        "role": "River Bank Commercial Core"
+      },
+      {
+        "id": "klu-floodplain",
+        "name": "Kullu Broad Alluvial Plain",
+        "coordinates": [
+          77.1095,
+          31.9579
+        ],
+        "elevation_m": 1279,
+        "slope_deg": 14.0,
+        "role": "Main Settlement Basin"
+      }
+    ],
+    "country": "India",
+    "country_code": "IN",
+    "data_source_label": "Data Provenance: IMD Reanalysis & CWC Basin Hydrography (Model Baseline)"
+  },
+  {
+    "id": "wayanad",
+    "name": "Wayanad (Meppadi / Chooralmala)",
+    "state": "Kerala",
+    "region": "Western Ghats Escarpment - Chaliyar Sub-basin",
+    "coordinates": [
+      76.132,
+      11.536
+    ],
+    "elevation_m": 920,
+    "slope_deg": 31.5,
+    "aspect_deg": 245,
+    "catchment_area_sqkm": 88.2,
+    "soil_type": "Lateritic Red Soil over Weathered Granulite (Liquefaction Sensitive)",
+    "historical_flood_frequency": 9.1,
+    "baseline": {
+      "rainfall_1h": 22.0,
+      "rainfall_3h": 62.0,
+      "rainfall_6h": 118.0,
+      "rainfall_24h": 240.0,
+      "antecedent_rain_3d": 360.0,
+      "antecedent_rain_7d": 510.0,
+      "soil_moisture": 0.94
+    },
+    "safe_zones": [
+      {
+        "name": "Meppadi Community High School Center",
+        "coordinates": [
+          76.121,
+          11.551
+        ],
+        "elevation_m": 1050,
+        "type": "Elevated Public Shelter"
+      },
+      {
+        "name": "Nedumbala Estate High Ground",
+        "coordinates": [
+          76.142,
+          11.545
+        ],
+        "elevation_m": 1110,
+        "type": "Ridge Plantation Refuge"
+      }
+    ],
+    "catchment_nodes": [
+      {
+        "id": "wyd-punchirimattom",
+        "name": "Punchirimattom Ridge Headwall",
+        "coordinates": [
+          76.16,
+          11.518
+        ],
+        "elevation_m": 1450,
+        "slope_deg": 42.0,
+        "role": "Extreme Runoff & Landslide Initiation"
+      },
+      {
+        "id": "wyd-mundakkai",
+        "name": "Mundakkai Valley Settlement",
+        "coordinates": [
+          76.147,
+          11.528
+        ],
+        "elevation_m": 960,
+        "slope_deg": 29.0,
+        "role": "High Impact Debris Inundation"
+      },
+      {
+        "id": "wyd-chooralmala",
+        "name": "Chooralmala Bridge & Market",
+        "coordinates": [
+          76.132,
+          11.536
+        ],
+        "elevation_m": 880,
+        "slope_deg": 18.0,
+        "role": "River Fluvial Choke Node"
+      }
+    ],
+    "country": "India",
+    "country_code": "IN",
+    "data_source_label": "Data Provenance: IMD Reanalysis & CWC Basin Hydrography (Model Baseline)"
+  },
+  {
+    "id": "dharamshala",
+    "name": "Dharamshala / Kangra Slopes",
+    "state": "Himachal Pradesh",
+    "region": "Dhauladhar Escarpment - Beas Tributary",
+    "coordinates": [
+      76.3234,
+      32.219
+    ],
+    "elevation_m": 1457,
+    "slope_deg": 26.5,
+    "aspect_deg": 190,
+    "catchment_area_sqkm": 115.0,
+    "soil_type": "Piedmont Gravel & Silty Loam",
+    "historical_flood_frequency": 7.2,
+    "baseline": {
+      "rainfall_1h": 11.0,
+      "rainfall_3h": 31.0,
+      "rainfall_6h": 55.0,
+      "rainfall_24h": 105.0,
+      "antecedent_rain_3d": 130.0,
+      "antecedent_rain_7d": 190.0,
+      "soil_moisture": 0.72
+    },
+    "safe_zones": [
+      {
+        "name": "Dharamshala Stadium High Terrace",
+        "coordinates": [
+          76.326,
+          32.198
+        ],
+        "elevation_m": 1475,
+        "type": "Reinforced Sports Complex Ground"
+      },
+      {
+        "name": "McLeod Ganj Ridge Plaza",
+        "coordinates": [
+          76.324,
+          32.242
+        ],
+        "elevation_m": 1780,
+        "type": "Elevated Urban Ridge"
+      }
+    ],
+    "catchment_nodes": [
+      {
+        "id": "dhm-triund",
+        "name": "Triund Upper Catchment",
+        "coordinates": [
+          76.355,
+          32.257
+        ],
+        "elevation_m": 2840,
+        "slope_deg": 37.0,
+        "role": "Orographic Storm Precipitation Inflow"
+      },
+      {
+        "id": "dhm-bhagsunag",
+        "name": "Bhagsunag Stream Gorge",
+        "coordinates": [
+          76.338,
+          32.247
+        ],
+        "elevation_m": 1770,
+        "slope_deg": 30.0,
+        "role": "Steep Torrents Drainage Channel"
+      },
+      {
+        "id": "dhm-kotwali",
+        "name": "Kotwali Lower Bazaar",
+        "coordinates": [
+          76.3234,
+          32.219
+        ],
+        "elevation_m": 1390,
+        "slope_deg": 16.0,
+        "role": "Urban Flash Flood Confluence"
+      }
+    ],
+    "country": "India",
+    "country_code": "IN",
+    "data_source_label": "Data Provenance: IMD Reanalysis & CWC Basin Hydrography (Model Baseline)"
+  },
+  {
+    "id": "melamchi",
+    "name": "Melamchi Catchment",
+    "state": "Bagmati Province",
+    "country": "Nepal",
+    "country_code": "NP",
+    "data_source_label": "Data Provenance: DHM Nepal & ICIMOD Basins (Comparative Reference)",
+    "region": "Melamchi River Basin / Sindhupalchok",
+    "coordinates": [
+      85.58,
+      27.83
+    ],
+    "elevation_m": 2150,
+    "slope_deg": 36.5,
+    "aspect_deg": 190,
+    "catchment_area_sqkm": 175.0,
+    "soil_type": "Gneissic Colluvium & Glacial Debris",
+    "historical_flood_frequency": 8.2,
+    "baseline": {
+      "rainfall_1h": 14.0,
+      "rainfall_3h": 38.0,
+      "rainfall_6h": 65.0,
+      "rainfall_24h": 125.0,
+      "antecedent_rain_3d": 160.0,
+      "antecedent_rain_7d": 240.0,
+      "soil_moisture": 0.81
+    },
+    "safe_zones": [
+      {
+        "name": "Melamchi Bazar Upper Terrace",
+        "coordinates": [
+          85.585,
+          27.838
+        ],
+        "elevation_m": 2240,
+        "type": "High Ground Ridge"
+      }
+    ],
+    "catchment_nodes": [
+      {
+        "id": "mel-upper",
+        "name": "Bremdang Glacial Cirque",
+        "coordinates": [
+          85.592,
+          27.91
+        ],
+        "elevation_m": 3600,
+        "slope_deg": 41.0,
+        "role": "Upstream Debris Initiation"
+      },
+      {
+        "id": "mel-confluence",
+        "name": "Yangri-Melamchi Confluence",
+        "coordinates": [
+          85.58,
+          27.83
+        ],
+        "elevation_m": 2150,
+        "slope_deg": 28.0,
+        "role": "Settlement Inundation Node"
+      }
+    ]
+  },
+  {
+    "id": "boulder",
+    "name": "Boulder Creek Catchment",
+    "state": "Colorado",
+    "country": "United States",
+    "country_code": "US",
+    "data_source_label": "Data Provenance: USGS Streamgage & NOAA Reanalysis (Comparative Reference)",
+    "region": "Boulder Creek Watershed / Front Range",
+    "coordinates": [
+      -105.27,
+      40.015
+    ],
+    "elevation_m": 1655,
+    "slope_deg": 24.5,
+    "aspect_deg": 85,
+    "catchment_area_sqkm": 350.0,
+    "soil_type": "Granitic Sandy Loam",
+    "historical_flood_frequency": 6.5,
+    "baseline": {
+      "rainfall_1h": 10.0,
+      "rainfall_3h": 28.0,
+      "rainfall_6h": 52.0,
+      "rainfall_24h": 95.0,
+      "antecedent_rain_3d": 110.0,
+      "antecedent_rain_7d": 140.0,
+      "soil_moisture": 0.65
+    },
+    "safe_zones": [
+      {
+        "name": "Flagstaff Mountain Lookout Ridge",
+        "coordinates": [
+          -105.295,
+          40.002
+        ],
+        "elevation_m": 2100,
+        "type": "High Ground Bedrock Terrace"
+      }
+    ],
+    "catchment_nodes": [
+      {
+        "id": "bld-canyon",
+        "name": "Boulder Canyon Choke Node",
+        "coordinates": [
+          -105.35,
+          40.005
+        ],
+        "elevation_m": 1950,
+        "slope_deg": 32.0,
+        "role": "Canyon Runoff Funnel"
+      },
+      {
+        "id": "bld-town",
+        "name": "Central Boulder Settlement Core",
+        "coordinates": [
+          -105.27,
+          40.015
+        ],
+        "elevation_m": 1655,
+        "slope_deg": 12.0,
+        "role": "Floodplain Habitation Zone"
+      }
+    ]
+  },
+  {
+    "id": "asheville",
+    "name": "French Broad / Asheville Basin",
+    "state": "North Carolina",
+    "country": "United States",
+    "country_code": "US",
+    "data_source_label": "Data Provenance: USGS Streamgage & NOAA Reanalysis (Comparative Reference)",
+    "region": "French Broad River Basin / Blue Ridge Mountains",
+    "coordinates": [
+      -82.5515,
+      35.5951
+    ],
+    "elevation_m": 650,
+    "slope_deg": 21.0,
+    "aspect_deg": 310,
+    "catchment_area_sqkm": 480.0,
+    "soil_type": "Clay Loam over Metamorphic Bedrock",
+    "historical_flood_frequency": 7.5,
+    "baseline": {
+      "rainfall_1h": 12.0,
+      "rainfall_3h": 32.0,
+      "rainfall_6h": 60.0,
+      "rainfall_24h": 110.0,
+      "antecedent_rain_3d": 130.0,
+      "antecedent_rain_7d": 180.0,
+      "soil_moisture": 0.72
+    },
+    "safe_zones": [
+      {
+        "name": "Sunset Mountain Upper Refuge",
+        "coordinates": [
+          -82.535,
+          35.61
+        ],
+        "elevation_m": 880,
+        "type": "Upper Ridge Shelter"
+      }
+    ],
+    "catchment_nodes": [
+      {
+        "id": "ash-swannanoa",
+        "name": "Swannanoa River Confluence",
+        "coordinates": [
+          -82.54,
+          35.57
+        ],
+        "elevation_m": 640,
+        "slope_deg": 18.0,
+        "role": "Severe Fluvial Inundation"
+      },
+      {
+        "id": "ash-downtown",
+        "name": "Biltmore Village Inundation Sector",
+        "coordinates": [
+          -82.545,
+          35.565
+        ],
+        "elevation_m": 630,
+        "slope_deg": 9.0,
+        "role": "Commercial Lowland Zone"
+      }
+    ]
+  },
+  {
+    "id": "kumamoto",
+    "name": "Kuma River Catchment",
+    "state": "Kumamoto Prefecture",
+    "country": "Japan",
+    "country_code": "JP",
+    "data_source_label": "Data Provenance: JMA Automated Basins & MLIT Reanalysis (Comparative Reference)",
+    "region": "Kuma River Basin / Kyushu Mountains",
+    "coordinates": [
+      130.7,
+      32.25
+    ],
+    "elevation_m": 920,
+    "slope_deg": 28.5,
+    "aspect_deg": 215,
+    "catchment_area_sqkm": 188.0,
+    "soil_type": "Volcanic Ash & Andesite Colluvium",
+    "historical_flood_frequency": 7.9,
+    "baseline": {
+      "rainfall_1h": 16.0,
+      "rainfall_3h": 44.0,
+      "rainfall_6h": 85.0,
+      "rainfall_24h": 170.0,
+      "antecedent_rain_3d": 210.0,
+      "antecedent_rain_7d": 280.0,
+      "soil_moisture": 0.84
+    },
+    "safe_zones": [
+      {
+        "name": "Hitoyoshi Castle High Plateau",
+        "coordinates": [
+          130.76,
+          32.21
+        ],
+        "elevation_m": 1050,
+        "type": "Elevated Historical Citadel"
+      }
+    ],
+    "catchment_nodes": [
+      {
+        "id": "kma-upstream",
+        "name": "Mount Ichifusa Gorge Head",
+        "coordinates": [
+          131.05,
+          32.32
+        ],
+        "elevation_m": 1720,
+        "slope_deg": 38.0,
+        "role": "Torrential Orograhic Inflow"
+      },
+      {
+        "id": "kma-hitoyoshi",
+        "name": "Hitoyoshi Basin Fluvial Plain",
+        "coordinates": [
+          130.75,
+          32.215
+        ],
+        "elevation_m": 120,
+        "slope_deg": 8.0,
+        "role": "Valley Bottom Inundation"
+      }
+    ]
+  }
+]

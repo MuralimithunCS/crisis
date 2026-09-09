@@ -1,0 +1,517 @@
+[
+  {
+    "id": "kedarnath-2013",
+    "name": "Kedarnath Disaster (2013)",
+    "location_id": "kedarnath",
+    "location_name": "Kedarnath, Uttarakhand",
+    "date": "June 16-17, 2013",
+    "disaster_type": "Cloudburst & Glacial Lake Breach Flash Flood",
+    "impact_summary": "Massive debris and water surge triggered by excessive multi-day rainfall and Chorabari moraine dam breach.",
+    "reconstruction_note": "Chronological progression reconstructed based on IMD meteorological reanalysis and Wadia Institute hydrological reports.",
+    "timeline": [
+      {
+        "step_index": 1,
+        "time_label": "T-48h (June 15, 08:00)",
+        "hours_to_peak": 48,
+        "description": "Continuous pre-monsoon precipitation begins over upper Mandakini basin. Soil moisture reaches early saturation.",
+        "environmental": {
+          "rainfall_1h": 8.0,
+          "rainfall_3h": 22.0,
+          "rainfall_6h": 38.0,
+          "rainfall_24h": 65.0,
+          "antecedent_rain_3d": 90.0,
+          "antecedent_rain_7d": 140.0,
+          "soil_moisture": 0.62
+        },
+        "risk": {
+          "probability": 0.22,
+          "level": "SAFE",
+          "lead_time_hours": 42.0,
+          "recommended_action": "Standard hydrological monitoring. Maintain routine catchment vigilance.",
+          "top_factors": [
+            "Normal pre-monsoon runoff",
+            "Catchment retention capacity within safe buffer"
+          ]
+        }
+      },
+      {
+        "step_index": 2,
+        "time_label": "T-24h (June 16, 08:00)",
+        "hours_to_peak": 24,
+        "description": "Heavy sustained downpour across Garhwal. Mandakini river velocity rises sharply. Soil matrix approaches saturation threshold.",
+        "environmental": {
+          "rainfall_1h": 24.0,
+          "rainfall_3h": 68.0,
+          "rainfall_6h": 125.0,
+          "rainfall_24h": 190.0,
+          "antecedent_rain_3d": 210.0,
+          "antecedent_rain_7d": 280.0,
+          "soil_moisture": 0.82
+        },
+        "risk": {
+          "probability": 0.54,
+          "level": "WATCH",
+          "lead_time_hours": 20.0,
+          "recommended_action": "Issue Advisory: Alert pilgrim transit camps. Prohibit movement in low river floodways.",
+          "top_factors": [
+            "Elevated 24h rainfall (190mm)",
+            "Soil moisture near saturation (82%)",
+            "Steep 38° terrain slope"
+          ]
+        }
+      },
+      {
+        "step_index": 3,
+        "time_label": "T-6h (June 16, 18:00)",
+        "hours_to_peak": 6,
+        "description": "Intense cloudburst over upper Chorabari lake. Inflow overwhelms natural moraine wall. Soil completely saturated (96%).",
+        "environmental": {
+          "rainfall_1h": 58.0,
+          "rainfall_3h": 142.0,
+          "rainfall_6h": 220.0,
+          "rainfall_24h": 310.0,
+          "antecedent_rain_3d": 320.0,
+          "antecedent_rain_7d": 390.0,
+          "soil_moisture": 0.96
+        },
+        "risk": {
+          "probability": 0.79,
+          "level": "EVACUATE SOON",
+          "lead_time_hours": 5.5,
+          "recommended_action": "CRITICAL EVACUATION PREPAREDNESS: Mobilize pilgrims and residents to elevated temple rock ridges.",
+          "top_factors": [
+            "Torrential 3h rainfall (142mm)",
+            "Moraine boundary instability",
+            "100% runoff coefficient"
+          ]
+        }
+      },
+      {
+        "step_index": 4,
+        "time_label": "T-0 (June 17, 07:15 Peak Surge)",
+        "hours_to_peak": 0,
+        "description": "Chorabari moraine collapses. Catastrophic wall of water and boulders tears through Kedarnath town.",
+        "environmental": {
+          "rainfall_1h": 75.0,
+          "rainfall_3h": 185.0,
+          "rainfall_6h": 290.0,
+          "rainfall_24h": 380.0,
+          "antecedent_rain_3d": 380.0,
+          "antecedent_rain_7d": 450.0,
+          "soil_moisture": 0.99
+        },
+        "risk": {
+          "probability": 0.97,
+          "level": "IMMEDIATE",
+          "lead_time_hours": 0.0,
+          "recommended_action": "IMMEDIATE SHELTER IN HIGH ROCK FORMATIONS: Valley floor completely inundated.",
+          "top_factors": [
+            "Extreme cloudburst combined with glacial breach",
+            "Moraine collapse",
+            "Severe funneling in narrow gorge"
+          ]
+        }
+      }
+    ],
+    "country_code": "IN"
+  },
+  {
+    "id": "chamoli-2021",
+    "name": "Chamoli Flash Flood (2021)",
+    "location_id": "chamoli",
+    "location_name": "Joshimath / Raini, Uttarakhand",
+    "date": "February 7, 2021",
+    "disaster_type": "Glacier Detachment & Debris Surge",
+    "impact_summary": "Ronti Peak rock-ice mass detachment causing an unprecedented sudden debris torrent down Rishiganga and Dhauliganga valleys.",
+    "reconstruction_note": "Reconstructed from remote sensing surveys, CWC gauge hydrographs, and NDRF incident logs.",
+    "timeline": [
+      {
+        "step_index": 1,
+        "time_label": "T-12h (Feb 6, 22:00)",
+        "hours_to_peak": 12,
+        "description": "Sub-zero conditions in upper catchment. Slope destabilization under internal hydrostatic stress.",
+        "environmental": {
+          "rainfall_1h": 2.0,
+          "rainfall_3h": 5.0,
+          "rainfall_6h": 12.0,
+          "rainfall_24h": 22.0,
+          "antecedent_rain_3d": 45.0,
+          "antecedent_rain_7d": 70.0,
+          "soil_moisture": 0.48
+        },
+        "risk": {
+          "probability": 0.19,
+          "level": "SAFE",
+          "lead_time_hours": 12.0,
+          "recommended_action": "Normal operational mode. Monitor high-altitude thermal sensors.",
+          "top_factors": [
+            "Low atmospheric precipitation",
+            "Standard winter baseflow"
+          ]
+        }
+      },
+      {
+        "step_index": 2,
+        "time_label": "T-2h (Feb 7, 08:30)",
+        "hours_to_peak": 2,
+        "description": "Rock-ice mass detachment occurs at 5,600m. Rapid friction melting generates fluid debris slurry accelerating down Ronti chute.",
+        "environmental": {
+          "rainfall_1h": 15.0,
+          "rainfall_3h": 28.0,
+          "rainfall_6h": 40.0,
+          "rainfall_24h": 65.0,
+          "antecedent_rain_3d": 80.0,
+          "antecedent_rain_7d": 110.0,
+          "soil_moisture": 0.74
+        },
+        "risk": {
+          "probability": 0.68,
+          "level": "EVACUATE SOON",
+          "lead_time_hours": 1.8,
+          "recommended_action": "SOUND DOWNSTREAM KLAXONS: Evacuate Raini bridge and Tapovan barrage construction tunnels.",
+          "top_factors": [
+            "Massive upstream displacement",
+            "Extreme velocity in 32° gradient gorge",
+            "Hydrodynamic pressure rise"
+          ]
+        }
+      },
+      {
+        "step_index": 3,
+        "time_label": "T-0 (Feb 7, 10:25 Peak Impact)",
+        "hours_to_peak": 0,
+        "description": "Debris flood hits Tapovan Vishnugad project. Hydroelectric infrastructure swept away within minutes.",
+        "environmental": {
+          "rainfall_1h": 25.0,
+          "rainfall_3h": 45.0,
+          "rainfall_6h": 70.0,
+          "rainfall_24h": 95.0,
+          "antecedent_rain_3d": 110.0,
+          "antecedent_rain_7d": 135.0,
+          "soil_moisture": 0.88
+        },
+        "risk": {
+          "probability": 0.94,
+          "level": "IMMEDIATE",
+          "lead_time_hours": 0.0,
+          "recommended_action": "CRITICAL EMERGENCY PROTOCOL: Full retreat to upper Joshimath cantonment high terraces.",
+          "top_factors": [
+            "Hyper-concentrated debris flow",
+            "Infrastructure blockage",
+            "Flash kinetic momentum"
+          ]
+        }
+      }
+    ],
+    "country_code": "IN"
+  },
+  {
+    "id": "mangan-2023",
+    "name": "Sikkim Teesta GLOF & Flash Flood (2023)",
+    "location_id": "mangan",
+    "location_name": "Chungthang / Mangan, Sikkim",
+    "date": "October 4, 2023",
+    "disaster_type": "Glacial Lake Outburst Flood (GLOF) & Cloudburst",
+    "impact_summary": "South Lhonak Lake glacial outburst combined with heavy rainfall destroyed Chungthang dam and devastated Teesta basin.",
+    "reconstruction_note": "Reconstructed using ISRO Bhuvan satellite imagery, Sikkim State Disaster Management reports, and CWC data.",
+    "timeline": [
+      {
+        "step_index": 1,
+        "time_label": "T-24h (Oct 3, 01:00)",
+        "hours_to_peak": 24,
+        "description": "Sustained monsoon trough stalls over North Sikkim. High antecedent rainfall over 7 days saturates slopes.",
+        "environmental": {
+          "rainfall_1h": 14.0,
+          "rainfall_3h": 36.0,
+          "rainfall_6h": 65.0,
+          "rainfall_24h": 130.0,
+          "antecedent_rain_3d": 180.0,
+          "antecedent_rain_7d": 290.0,
+          "soil_moisture": 0.79
+        },
+        "risk": {
+          "probability": 0.42,
+          "level": "WATCH",
+          "lead_time_hours": 22.0,
+          "recommended_action": "Issue Advisory: Pre-alert Chungthang dam operators and low-lying settlements along Teesta.",
+          "top_factors": [
+            "High antecedent rainfall (290mm in 7 days)",
+            "High water table",
+            "Steep V-shaped valley"
+          ]
+        }
+      },
+      {
+        "step_index": 2,
+        "time_label": "T-4h (Oct 3, 22:30)",
+        "hours_to_peak": 4,
+        "description": "Cloudburst strikes over South Lhonak lake. Lake breaches moraine. Massive flood wave charges downstream toward Chungthang.",
+        "environmental": {
+          "rainfall_1h": 42.0,
+          "rainfall_3h": 95.0,
+          "rainfall_6h": 160.0,
+          "rainfall_24h": 230.0,
+          "antecedent_rain_3d": 260.0,
+          "antecedent_rain_7d": 380.0,
+          "soil_moisture": 0.92
+        },
+        "risk": {
+          "probability": 0.81,
+          "level": "IMMEDIATE",
+          "lead_time_hours": 3.5,
+          "recommended_action": "RED ALERT EVACUATION: Immediate evacuation of Chungthang, Dikchu, Singtam, and Rangpo towns.",
+          "top_factors": [
+            "Catastrophic glacial lake breach",
+            "Extreme discharge surge",
+            "15m water wall formation"
+          ]
+        }
+      },
+      {
+        "step_index": 3,
+        "time_label": "T-0 (Oct 4, 01:30 Peak Breach)",
+        "hours_to_peak": 0,
+        "description": "Flash flood overtops Chungthang dam, causing complete structural failure. Flood surge travels over 60km downstream.",
+        "environmental": {
+          "rainfall_1h": 65.0,
+          "rainfall_3h": 140.0,
+          "rainfall_6h": 220.0,
+          "rainfall_24h": 310.0,
+          "antecedent_rain_3d": 330.0,
+          "antecedent_rain_7d": 440.0,
+          "soil_moisture": 0.98
+        },
+        "risk": {
+          "probability": 0.98,
+          "level": "IMMEDIATE",
+          "lead_time_hours": 0.0,
+          "recommended_action": "EMERGENCY MOBILIZATION: Army and SDRF riverbank rescue operations in effect.",
+          "top_factors": [
+            "Dam breach amplification",
+            "Unprecedented fluvial discharge",
+            "Complete valley floor wash-out"
+          ]
+        }
+      }
+    ],
+    "country_code": "IN"
+  },
+  {
+    "id": "wayanad-2024",
+    "name": "Wayanad Debris & Flash Flood (2024)",
+    "location_id": "wayanad",
+    "location_name": "Chooralmala / Mundakkai, Wayanad",
+    "date": "July 30, 2024",
+    "disaster_type": "Torrential Monsoon Cloudburst & Debris Flow",
+    "impact_summary": "Continuous heavy orographic rain triggered massive hillside slope liquefaction and devastating debris torrents.",
+    "reconstruction_note": "Reconstructed using Kerala SDMA automated weather station records and Geological Survey of India reports.",
+    "timeline": [
+      {
+        "step_index": 1,
+        "time_label": "T-48h (July 28, 12:00)",
+        "hours_to_peak": 48,
+        "description": "Continuous Southwest Monsoon downpour. 48-hour rainfall exceeds 200mm across Meppadi plantation hills.",
+        "environmental": {
+          "rainfall_1h": 16.0,
+          "rainfall_3h": 44.0,
+          "rainfall_6h": 82.0,
+          "rainfall_24h": 170.0,
+          "antecedent_rain_3d": 240.0,
+          "antecedent_rain_7d": 390.0,
+          "soil_moisture": 0.81
+        },
+        "risk": {
+          "probability": 0.48,
+          "level": "WATCH",
+          "lead_time_hours": 40.0,
+          "recommended_action": "Issue High Alert: Disseminate warnings to tea estate line houses near natural water gullies.",
+          "top_factors": [
+            "Heavy 48h monsoon rain",
+            "Steep 31° escarpment slope",
+            "High soil saturation index"
+          ]
+        }
+      },
+      {
+        "step_index": 2,
+        "time_label": "T-12h (July 29, 14:00)",
+        "hours_to_peak": 12,
+        "description": "Rainfall reaches extreme intensity (>140mm in 12h). Subsurface pore pressure destabilizes laterite layer above bedrock.",
+        "environmental": {
+          "rainfall_1h": 32.0,
+          "rainfall_3h": 85.0,
+          "rainfall_6h": 155.0,
+          "rainfall_24h": 290.0,
+          "antecedent_rain_3d": 410.0,
+          "antecedent_rain_7d": 560.0,
+          "soil_moisture": 0.94
+        },
+        "risk": {
+          "probability": 0.76,
+          "level": "EVACUATE SOON",
+          "lead_time_hours": 10.5,
+          "recommended_action": "MANDATORY EVACUATION: Shift all families from Mundakkai and Punchirimattom to Meppadi school shelters.",
+          "top_factors": [
+            "Critical antecedent rain (560mm/7d)",
+            "Laterite soil liquefaction threshold reached",
+            "Severe hillside erosion"
+          ]
+        }
+      },
+      {
+        "step_index": 3,
+        "time_label": "T-0 (July 30, 02:00 Night Peak Surge)",
+        "hours_to_peak": 0,
+        "description": "Major crown collapse at Punchirimattom. Massive slurry of mud, boulders, and uprooted trees obliterates Mundakkai and Chooralmala.",
+        "environmental": {
+          "rainfall_1h": 48.0,
+          "rainfall_3h": 120.0,
+          "rainfall_6h": 210.0,
+          "rainfall_24h": 372.0,
+          "antecedent_rain_3d": 490.0,
+          "antecedent_rain_7d": 640.0,
+          "soil_moisture": 0.99
+        },
+        "risk": {
+          "probability": 0.99,
+          "level": "IMMEDIATE",
+          "lead_time_hours": 0.0,
+          "recommended_action": "NATIONAL RESCUE MOBILIZATION: Chooralmala bridge collapsed. Helicopter & Bailey bridge deployment required.",
+          "top_factors": [
+            "Record 24h precipitation (372mm)",
+            "Complete geotechnical slope failure",
+            "River channel choked by gigantic boulders"
+          ]
+        }
+      }
+    ],
+    "country_code": "IN"
+  },
+  {
+    "id": "melamchi-2021",
+    "name": "Melamchi Debris Surge (2021)",
+    "location_id": "melamchi",
+    "location_name": "Melamchi, Nepal",
+    "country_code": "NP",
+    "date": "June 15, 2021",
+    "disaster_type": "Continuous Glacial Melt & Debris Torrent",
+    "impact_summary": "Intense pre-monsoon precipitation mobilized glacio-fluvial deposits, devastating the Melamchi Water Supply headworks.",
+    "reconstruction_note": "Reconstructed using DHM Nepal hydrometric logs and ICIMOD remote sensing surveys.",
+    "timeline": [
+      {
+        "step_index": 1,
+        "time_label": "T-24h (June 14, 18:00)",
+        "hours_to_peak": 24,
+        "description": "Continuous high-elevation rain saturates unstable moraine slopes above 3,500m.",
+        "environmental": {
+          "rainfall_1h": 12.0,
+          "rainfall_3h": 32.0,
+          "rainfall_6h": 58.0,
+          "rainfall_24h": 110.0,
+          "antecedent_rain_3d": 140.0,
+          "antecedent_rain_7d": 210.0,
+          "soil_moisture": 0.76
+        },
+        "risk": {
+          "probability": 0.42,
+          "level": "WATCH",
+          "lead_time_hours": 20.0,
+          "recommended_action": "Alert downstream bridge personnel and intake tunnels.",
+          "top_factors": [
+            "High antecedent rain",
+            "Glacial moraine instability"
+          ]
+        }
+      },
+      {
+        "step_index": 2,
+        "time_label": "T-0 (June 15, 18:30 Peak Surge)",
+        "hours_to_peak": 0,
+        "description": "Sudden catastrophic debris slurry washes through Melamchi Bazar.",
+        "environmental": {
+          "rainfall_1h": 44.0,
+          "rainfall_3h": 95.0,
+          "rainfall_6h": 160.0,
+          "rainfall_24h": 240.0,
+          "antecedent_rain_3d": 260.0,
+          "antecedent_rain_7d": 330.0,
+          "soil_moisture": 0.96
+        },
+        "risk": {
+          "probability": 0.95,
+          "level": "IMMEDIATE",
+          "lead_time_hours": 0.0,
+          "recommended_action": "Evacuate all valley floors immediately to ridge tops.",
+          "top_factors": [
+            "Debris dam breach",
+            "Hyper-concentrated sediment surge"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "boulder-2013",
+    "name": "Colorado Front Range Flood (2013)",
+    "location_id": "boulder",
+    "location_name": "Boulder, Colorado",
+    "country_code": "US",
+    "date": "September 11-15, 2013",
+    "disaster_type": "Atmospheric River Mesoscale Mountain Torrent",
+    "impact_summary": "Stalled Pacific/Gulf moisture plume caused historic multi-day precipitation exceeding annual average.",
+    "reconstruction_note": "Reconstructed from USGS streamflow hydrographs and NOAA radar archives.",
+    "timeline": [
+      {
+        "step_index": 1,
+        "time_label": "T-24h (Sept 11, 10:00)",
+        "hours_to_peak": 24,
+        "description": "Prolonged upslope precipitation begins soaking canyon soils.",
+        "environmental": {
+          "rainfall_1h": 15.0,
+          "rainfall_3h": 40.0,
+          "rainfall_6h": 75.0,
+          "rainfall_24h": 120.0,
+          "antecedent_rain_3d": 130.0,
+          "antecedent_rain_7d": 160.0,
+          "soil_moisture": 0.78
+        },
+        "risk": {
+          "probability": 0.52,
+          "level": "WATCH",
+          "lead_time_hours": 22.0,
+          "recommended_action": "Issue Flash Flood Watch for Boulder Canyon.",
+          "top_factors": [
+            "Stalled moisture plume",
+            "Rocky Mountain orographic lift"
+          ]
+        }
+      },
+      {
+        "step_index": 2,
+        "time_label": "T-0 (Sept 12, 02:00 Peak Discharge)",
+        "hours_to_peak": 0,
+        "description": "Record rainfall triggers widespread debris flows and canyon road destruction.",
+        "environmental": {
+          "rainfall_1h": 38.0,
+          "rainfall_3h": 85.0,
+          "rainfall_6h": 155.0,
+          "rainfall_24h": 230.0,
+          "antecedent_rain_3d": 250.0,
+          "antecedent_rain_7d": 290.0,
+          "soil_moisture": 0.97
+        },
+        "risk": {
+          "probability": 0.92,
+          "level": "IMMEDIATE",
+          "lead_time_hours": 0.0,
+          "recommended_action": "Emergency evacuation: Seek higher ground away from streams.",
+          "top_factors": [
+            "Record 24h precipitation",
+            "Saturated soils",
+            "Steep canyon topography"
+          ]
+        }
+      }
+    ]
+  }
+]
